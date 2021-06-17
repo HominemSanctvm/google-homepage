@@ -1,6 +1,8 @@
 <!doctype html>
-<LINK REL=StyleSheet HREF="style.css" TYPE="text/css" MEDIA=screen>
-
+<link REL=StyleSheet HREF="style.css" TYPE="text/css" MEDIA=screen>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -10,14 +12,51 @@
 		<header>
 			<nav id="navbar">
 				<ul id="navlinks">
-					<li>Gmail</li>
-					<li>Images</li>
+					<a href="https://mail.google.com" target="_blank"><li>Gmail</li></a>
+					<a href="https://google.com/imghp" target="_blank"><li>Imagens</li>
+					<a href="https://about.google/intl/pt-BR/products/" target="_blank"><span class="material-icons">apps</span></a>
+					<a href="https://gist.github.com/HominemSanctvm" target="_blank"><img id="profile" src="https://avatars.githubusercontent.com/u/79165355?v=4" alt="profile-pic" width="32px" height="32px"></a>
 				</ul>
 			</nav>
 		</header>
 		<div id="elements">
 			<div id="img-div">
 				<img id="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google-logo">
+			</div>
+			<div id="elements-2">
+				<form id="form-searchbar" action="https://www.google.com/search?q=">
+					<div id="searchbar-outline">
+						<div id=div-searchbar-searchicon">
+							<span class="material-icons">search</span>
+						</div>
+						<div id="div-searchbar-text">
+							<input id="searchbar-text" type="text" maxlenght="2048"/>
+						</div>
+						<div id="div-searchbar-acessicons">
+							<span class="material-icons">mic</span>
+							<span class="material-icons">keyboard</span>
+						</div>
+					</div>
+					<div id="buttons-div">
+						<button id="search-button" class="buttons" action="submit">Pesquisa Google</button>
+						<button id="lucky-button" class="buttons">Estou com sorte</button>
+					</div>
+				</form>
+				<footer id="footer">
+					<div class="footer-div">
+						<ul>
+							<li>Brasil</li>
+							<br>
+						</ul>
+						<hr>
+						<ul>
+							<li>Sobre</li>
+							<li>Publicidade</li>
+							<li>Negócios</li>
+							<li>Como funciona a pesquisa</li>
+						</ul>
+					</div>
+				</footer>
 			</div>
 		</div>
 	</body>
